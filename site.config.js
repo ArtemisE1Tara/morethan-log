@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: 'Ahmed Secen',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'frontend developer',
+    role: 'frontend developer/student',
     bio: 'I develop everything(?).',
     email: 'ahmedsecen2@gmail.com',
     linkedin: '',
@@ -18,12 +18,12 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: 'Studious',
-    description: 'welcome to Studious!',
+    title: 'Blog',
+    description: 'Welcome to the Blog!',
     theme: 'dark' // ['light', 'dark', 'auto']
   },
 
-  // CONFIG configration (required)
+  // CONFIG configuration (required)
   link: 'https://main-blog.vercel.app',
   since: 2023, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
