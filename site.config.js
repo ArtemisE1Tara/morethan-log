@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: ''
+      name: `LevelEditor+++`,
+      href: 'https://github.com/ArtemisE1Tara/LevelEditor---'
     }
   ],
   // blog setting (required)
@@ -53,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'morethanmin/morethan-log',
+      repo: 'ArtemisE1Tara/morethan-log',
       'issue-term': 'og:title',
       label: '💬 Utterances',
     }
