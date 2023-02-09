@@ -9,6 +9,7 @@ import Scripts from '@components/Scripts'
 import { NextPage } from 'next'
 import { ReactElement, ReactNode } from 'react'
 import { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/react';
 
 export type NextPageWithLayout<PageProps = {}> = NextPage<PageProps> & {
   getLayout?: (page: ReactElement) => ReactNode
@@ -27,8 +28,10 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
     <>
       <Scripts />
       {getLayout(<Component {...pageProps} />)}
+      <Component {...pageProps} />
+      <Analytics />
     </>
-  )
+  );
 }
 
 export default MyApp
