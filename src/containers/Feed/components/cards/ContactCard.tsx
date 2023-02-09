@@ -5,6 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineYoutube,
 } from "react-icons/ai"
 const ContactCard: React.FC = () => {
   return (
@@ -31,6 +32,17 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineInstagram className="text-2xl" />
             <div className="text-sm">instagram</div>
+          </a>
+        )}
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://www.youtube.com/channel/${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+          >
+            <AiOutlineYoutube className="text-2xl" />
+            <div className="text-sm">youtube</div>
           </a>
         )}
         {CONFIG.profile.email && (

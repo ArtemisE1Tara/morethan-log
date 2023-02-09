@@ -9,6 +9,7 @@ const CONFIG = {
     linkedin: '',
     github: 'ArtemisE1Tara',
     instagram: 'https://instagram.com/ahmedsecen2?igshid=ZDdkNTZiNTM=',
+    youtube: 'https://www.youtube.com/channel/UC3XgIF1uqxywaFc9AM2GK4g',
   },
   projects: [
     {
