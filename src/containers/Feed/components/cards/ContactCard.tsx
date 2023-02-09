@@ -6,7 +6,6 @@ import {
   AiOutlineMail,
   AiFillLinkedin,
 } from "react-icons/ai"
-
 const ContactCard: React.FC = () => {
   return (
     <>
