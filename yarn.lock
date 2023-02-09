@@ -881,9 +881,9 @@
     "toggle-selection" "^1.0.6"
 
 "core-js-pure@^3.20.2":
-  "integrity" "sha512-bOxbZIy9S5n4OVH63XaLVXZ49QKicjowDx/UELyJ68vxfCRpYsbyh/WNZNfEfAk+ekA8vSjt+gCDpvh672bc3w=="
-  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.22.8.tgz"
-  "version" "3.22.8"
+  "integrity" "sha512-Cf2jqAbXgWH3VVzjyaaFkY1EBazxugUepGymDoeteyYr9ByX51kD2jdHZlsEF/xnJMyN3Prua7mQuzwMg6Zc9A=="
+  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.27.2.tgz"
+  "version" "3.27.2"
 
 "cross-spawn@^7.0.2":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
