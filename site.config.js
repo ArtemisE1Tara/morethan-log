@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `LevelEditor+++`,
-      href: 'https://github.com/ArtemisE1Tara/LevelEditor---'
+      name: `morethan-min`,
+      href: 'https://github.com/ArtemisE1Tara/morethan-log'
     }
   ],
   // blog setting (required)
