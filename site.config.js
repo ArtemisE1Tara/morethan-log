@@ -8,7 +8,7 @@ const CONFIG = {
     email: '',
     linkedin: '',
     github: 'ArtemisE1Tara',
-    instagram: 'https://instagram.com/ahmedsecen2?igshid=ZDdkNTZiNTM=',
+    instagram: 'ahmedsecen2',
     youtube: 'UC3XgIF1uqxywaFc9AM2GK4g',
   },
   projects: [
