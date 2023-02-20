@@ -25,7 +25,7 @@ export async function getStaticProps({ params: { slug } }: any) {
     const posts = await getPosts()
     const post = posts.find((t) => t.slug === slug)
     const blockMap = await getPostBlocks(post?.id!)
-
+    
     return {
       props: { post, blockMap },
       revalidate: 1,
